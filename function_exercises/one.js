@@ -6,3 +6,7 @@ function foo() {
 }
 foo();
 console.log(bar);
+
+/*
+The code logs 1 to the console. foo doesn't affect the value assigned to bar on line 3 since JavaScript functions create an inner scope.
+*/

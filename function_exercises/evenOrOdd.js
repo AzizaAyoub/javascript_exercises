@@ -3,14 +3,19 @@ Write a function, evenOrOdd, that determines whether its argument is an even num
 */
 
 function evenOrOdd(number) {
-    if(number % 2 === 0){
-        console.log(number + ' is even');
-    }else {
-        console.log(number + ' is odd');
+    if (!Number.isInteger(number)) {
+        console.log('Sorry, the value you passed is not an integer');
+        return
     }
-}
+        if(number % 2 === 0){
+            console.log(number + ' is even');
+        }else {
+            console.log(number + ' is odd');
+        }
+    }
 evenOrOdd(34);
 evenOrOdd(3);
 evenOrOdd(4);
 evenOrOdd(1);
+evenOrOdd(3.3);
 

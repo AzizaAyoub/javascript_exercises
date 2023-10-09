@@ -7,3 +7,6 @@ function fibonacci(number) {
   console.log(fibonacci(6));  // => 8
   console.log(fibonacci(20)); // => 6765
 
+/*
+Each time the fibonacci function runs, it recursively invokes itself twice, once with a number 1 less than the current number, and once with a number 2 less than the current number.
+*/

@@ -11,3 +11,6 @@ let myProtoObj = {
   myObj.qux = 3;
   console.log(myObj);
   
+  for (let key in myObj) {
+    console.log(key);
+  }

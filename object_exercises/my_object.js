@@ -8,3 +8,6 @@ let myProtoObj = {
   let myObj = Object.create(myProtoObj);
   console.log(myObj);
   console.log(myProtoObj);
+  myObj.qux = 3;
+  console.log(myObj);
+  
